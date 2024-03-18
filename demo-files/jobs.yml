@@ -1,0 +1,5 @@
+jobs:
+  my-job:
+    uses: eltanko/actions-learning-pathway/blob/main/.github/workflows/build-test-deploy.yml@main
+    with:
+      node-version: '18.x'
